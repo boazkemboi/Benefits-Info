@@ -26,18 +26,11 @@
         }
         ol {
             padding-left: 20px;
-            counter-reset: section;
         }
         ol > li {
             margin: 15px 0;
             font-weight: bold;
             color: #0056b3;
-            counter-increment: section;
-        }
-        ol > li::before {
-            content: counter(section) ". ";
-            font-weight: bold;
-            color: #007BFF;
         }
         ul {
             padding-left: 20px;
